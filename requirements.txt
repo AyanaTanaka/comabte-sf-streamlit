@@ -4,7 +4,7 @@ streamlit
 pandas
 folium
 streamlit_folium
-matplotlib.pyplot
+matplotlib[pyplot]
 contextily
 matplotlib[colors]
 matplotlib_scalebar[scalebar]
