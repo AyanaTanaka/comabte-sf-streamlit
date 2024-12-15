@@ -1,4 +1,12 @@
-streamlit
-duckdb
-pandas
+dask
 geopandas
+streamlit
+pandas
+folium
+streamlit_folium
+matplotlib
+contextily
+matplotlib_scalebar
+plotly
+numpy
+duckdb
