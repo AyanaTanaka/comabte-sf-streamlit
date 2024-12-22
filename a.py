@@ -14,20 +14,3 @@ with col3:
 st.markdown("<h1 style='text-align:center;'font-size:40px;'>Plataforma de Monitoramento de Formigas por Sensoriamento Remoto</h1>", unsafe_allow_html=True)
 
 st.write("**Baixar planilhas:**")
-
-
-col1, col2 = st.columns([1,1])
-with col1:
-    st.download_button(
-        label="Porcentagem desfolha por talhão",
-        data=csv_stand,
-        file_name='desfolha_talhao.csv',
-        mime='text/csv'
-    )
-with col2:
-    st.download_button(
-        label="Porcentagem desfolha por fazenda",
-        data=csv_farm,
-        file_name='desfolha_fazenda.csv',
-        mime='text/csv'
-    )
